@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "nom": "chaabane",
+    "prenom": "safa",
+    "age": "27 ",
+    "profession": "web developer",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/langfr-1024px-Angular_full_color_logo.svg.png"
+  },
+  {
+    "id": 1,
+    "nom": "mejri",
+    "prenom": "ahlem",
+    "age": "25 ",
+    "profession": "web developer",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/langfr-1024px-Angular_full_color_logo.svg.png"
+  },
+  {
+    "id": 1,
+    "nom": "hafsouni",
+    "prenom": "mariem",
+    "age": "21 ",
+    "profession": "web developer",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/langfr-1024px-Angular_full_color_logo.svg.png"
+  },
+  {
+    "id": 2,
+    "nom": "dabegh",
+    "prenom": "nesrine",
+    "age": "32 ",
+    "profession": "designer",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/langfr-1024px-Angular_full_color_logo.svg.png"
+  }
+]

@@ -1,7 +1,7 @@
 <section class="min-h-screen bg-white flex flex-wrap">
   <div class="container m-auto p-10">
     <div
-      class="flex h-full flex-wrap items-center justify-center text-neutral-800 text-neutral-200"
+      class="flex h-full flex-wrap items-center justify-center text-neutral-800"
     >
       <div class="w-full">
         <div class="block rounded-lg bg-neutral-200 shadow-lg">
@@ -34,7 +34,31 @@
             <div class="px-4 md:px-0 lg:w-6/12">
               <div class="md:mx-6 md:p-12">
                 <!--Logo-->
+                <app-register>
+                  <!-- <p question>Is content projection cool?</p>
+                  <p>Let's learn about content projection!</p> -->
+
+                  <p class="material-icons" #buttonIcon>favorite</p>
+                  {{ buttonTitle }}
+                </app-register>
                 <div class="text-center">
+                  <!-- <input
+                    type="mail"
+                    name="name"
+                    id="name"
+                    [(ngModel)]="name"
+                    #nameInput="ngModel"
+                    required
+                  /> -->
+                  <!-- <p
+                    class="text-red-700"
+                    *ngIf="
+                      nameInput.invalid &&
+                      (nameInput.dirty || nameInput.touched)
+                    "
+                  >
+                    Veuillez remplir votre nom.
+                  </p> -->
                   <img
                     class="mx-auto w-36"
                     src="/assets/logocvmaker.png"
