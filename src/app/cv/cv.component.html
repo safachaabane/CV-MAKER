@@ -1,0 +1,6 @@
+<div class="flex border-[1px] border-neutral-400 p-2 m-2">
+  <div class="basis-4/12">
+    <app-list-cv (newItemEvent)="showDetails($event)" />
+  </div>
+  <div class="basis-8/12"><app-details-cv [cvdetails]="currentCv" /></div>
+</div>

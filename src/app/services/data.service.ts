@@ -1,17 +1,15 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { CV } from './cv';
+import { CV } from '../cv';
 
 @Injectable({
   providedIn: 'root',
 })
-export class CVService {
-  private baseUrl = '/data';
-
+export class DataService {
   constructor(private http: HttpClient) {}
 
-  getCV(): Observable<CV[]> {
-    return this.http.get<CV[]>(`${this.baseUrl}/CV`);
+  getData(): Observable<CV[]> {
+    return this.http.get<CV[]>('./assets/data/cv.json');
   }
 }

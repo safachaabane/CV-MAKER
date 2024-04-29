@@ -1,0 +1,11 @@
+<div *ngIf="cvdetails">
+  <img
+    class="max-h-[150px] rounded-[50%] bg-white m-auto"
+    [src]="cvdetails?.avatar"
+    alt="avatar"
+  />
+  <p class="w-fit m-auto">  <span class="px-2">{{ cvdetails?.prenom }}</span>
+    <span class="px-2">{{ cvdetails?.nom }}</span></p>
+  <p class="w-fit m-auto">{{cvdetails?.age}} ans</p>
+  <p class="w-fit m-auto">{{cvdetails?.profession}} </p>
+</div>

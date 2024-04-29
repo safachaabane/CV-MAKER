@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { CvComponentComponent } from './cv-component/cv-component.component';
+import { CvComponent } from './cv/cv.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'cv', component: CvComponentComponent },
+  { path: 'cv', component: CvComponent },
 ];
 
 @NgModule({
